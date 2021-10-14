@@ -3,7 +3,7 @@ console.log('ズンドコキヨシ on JavaScript')
 console.log('------------------------------')
 
 // ズンドコ配列
-let zndkAry = ['ズン', 'ドコ']
+const zndkAry = ['ズン', 'ドコ']
 
 // ズンドコ関数
 const zundoko = (ary) => {
