@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "zundoko": "tsc && node build/zundoko.js",
+    "dodosuko": "tsc && node build/dodosuko.js",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  }
+}
